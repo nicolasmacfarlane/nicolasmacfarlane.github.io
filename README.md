@@ -1,1 +1,7 @@
 "# nicolasmacfarlane.github.io" 
+
+PA3: I completed my biography section of the portfolio.
+
+PA4: I completed the Resume and Contact section of my portfolio, and added CSS hover effects and AwesomeFont icons to my website.
+
+WebPageTest: I added lang="en" to <html> for improved accessibility, and rel="preconnect" to all third-party links (FontAwesome, Google Fonts, etc) in the <head> for improved rendering.
