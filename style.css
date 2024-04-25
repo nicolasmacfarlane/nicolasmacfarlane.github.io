@@ -1,0 +1,166 @@
+/* Full Page */
+
+:root {
+    --blue: #396969;
+    --yellow: #DAC020;
+}
+
+body {
+    background-image: url(Content/background.png);
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: auto;
+}
+
+#FullPage{
+    background-color: white;
+    min-height: 100vh;
+}
+
+h1, h2, h3{
+    color: var(--blue);
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p, a{
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+}
+
+p {
+    font-weight: 400;
+}
+
+a{
+    font-weight: 500;
+}
+
+hr{
+    border: none;
+    background: var(--yellow);
+    height: 2px;
+    opacity: 1;
+    margin: 5px 20px;
+}
+
+/* Banner */
+
+#Banner {
+    text-align: center;
+    align-content: center;
+}
+
+#PageLinks a {
+    font-size: 20px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+    #PageLinks a:hover {
+        text-decoration: underline;
+        color: var(--yellow);
+    }
+
+/* Contact */
+
+#Contact {
+    text-align: center;
+}
+
+    #Contact h3{
+        font-size: 20px;
+    }
+
+    #Contact a, i, span{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+
+    #Contact a, span{
+        margin-right: 5px;
+    }
+    #Contact i{
+        margin-left: 5px;
+    }
+
+    #Contact a:hover{
+        text-decoration: underline;
+        color: var(--yellow);
+    }
+
+/* About */
+
+#About img{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#About h2{
+    text-align: center;
+}
+
+#Bio{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+
+/* Portfolio */
+
+#Portfolio hr{
+    margin: 10px 100px;
+}
+
+#Portfolio h3{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#Portfolio video, iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+}
+
+
+#Portfolio p{
+    text-align: left;
+}
+
+/* Resume */
+
+#Resume a{
+    display: block;
+    text-align: center;
+}
+
+#Resume a:hover{
+    color: var(--yellow);
+}
+
+embed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 100vh;
+}
