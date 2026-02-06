@@ -28,7 +28,11 @@ h1, h2{
     text-align: center;
 }
 
-p, a{
+h3 {
+    font-size:20px;
+}
+
+p, a, li{
     color: black;
     font-family: "Quicksand", sans-serif;
     font-style: normal;
